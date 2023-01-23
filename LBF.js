@@ -41,11 +41,11 @@ function initMap() {
     }
 
     
-    loader.then(() => {
-        console.log('Maps JS API loaded');
-        const map = displayMap();
-        const markers = addMarkers(map);
-    })
+    // loader.then(() => {
+    //     console.log('Maps JS API loaded');
+    //     const map = displayMap();
+    //     const markers = addMarkers(map);
+    // })
     
 
 
