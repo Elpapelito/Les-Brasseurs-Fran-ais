@@ -1,0 +1,1021 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <title>Les Brasseurs Français</title>
+        <link rel="stylesheet" media="all" href="LBF.css">
+        <script type="module" src="LBF.js"></script>
+
+        
+        <!-- <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+        <script type="module" src="LBF.ts"></script> -->
+</head>
+<body id="page">
+    <section id="global">
+        <header id="header">
+                <div id="header-logo">
+                    <div id="header-logo-tn">
+
+                    </div>
+                    <div id="header-logo-t0">
+
+                    </div>
+                    
+                </div>
+            <div id="header-inner">
+                <nav id="nav"> 
+    
+                    <ul id="nav-ul">
+                        <li id="nav-home" class="cursor">Home</li>
+                        <li id="nav-espace" class="cursor">Nos espaces</li>
+                        <li id="nav-boisson" class="cursor">Boissons</li>
+                        <li id="nav-menus" class="cursor">Menus</li>
+                        <li id="nav-events" class="cursor">Events</li>
+                        <li id="nav-contact" class="cursor">Contacts</li>
+                    </ul>
+                </nav>
+
+                <ul id="header-ul-network">
+                    <li id="header-insta" ><a href=""></a></li>
+                    <li id="header-facebook"><a href=""></a></li>
+                    <li id="header-google"><a href=""></a></li>
+                </ul>
+                <a id="reserve" href="https://resos.com/?gclid=EAIaIQobChMIxPLfhbHY-wIV7e3mCh30Cg2PEAAYASAAEgKBbvD_BwE">
+                    <p>Reservez</p>
+                </a>
+            </div>
+        </header>
+        <section id="section1">
+
+            <div id="section1-circle">
+            </div>
+
+            <h1 id="T1" class="section1-js-scroll">
+                <div><span>Les </span></div>
+                <div><span>Brasseurs </span></div>
+                <div><span>Français </span></div>
+            </h1>
+                
+                
+
+            <div id="section1-text-zone">
+                <div id="section1-text-zone-line">
+                    <img class="icones-text" src="Ressources/Images/loupe.png"><p> 65 rue Etienne Jean Baptiste Cartier <br> 37400 <strong>Amboise</strong></p>
+                </div>
+                <div id="section1-text-zone-line">
+                    <img class="icones-text" src="Ressources/Images/horloge.png"><p> Lundi: <br>  12h-15h<br>Mardi au Dimanche: 12h-23h   </p>
+                </div>
+                
+
+            </div>
+
+
+
+
+        </section>
+        <section id="section2">
+
+            <div id="section2-inner">
+                <div id="section2-inner-grande" class="" >
+                    <div id="petite-contenue"></div>
+                    <h4 class="section2-h4" id="section2-h4-G">Pour de <br> <strong id="G">grandes <br> réunions </strong></h4>
+                    <img class="section2-inner-icones cursor" id="section2-inner-iconesG" src="Ressources/Images/reunion.png" onclick="grande(1)">
+                    <img class="section2-inner-F cursor" id="section2-inner-retourG" src="Ressources/Images/arrow2.png" onclick="grande(0)">
+                </div>
+                <div id="section2-inner-petite" class="">
+                    <div id="grande-contenue"></div>
+                    <h4 class="section2-h4" id="section2-h4-P">Pour de <br> <strong id="P"> petites <br>  retrouvailles</strong></h4>
+                    <img class="section2-inner-icones cursor" id="section2-inner-iconesP" src="Ressources/Images/drinkOK.png" onclick="petite(1)">
+                    <img class="section2-inner-F cursor" id="section2-inner-retourP" src="Ressources/Images/arrow1.png"  onclick="petite(0)">
+                </div>
+            </div>
+
+        </section>
+
+        <section id="section3">
+            <div id="section3-inner">
+                <div id="section3-inner-banner">
+                    <div id="section3-inner-banner-carre"></div>
+                    <div id="section3-inner-banner-cercle"></div>
+                    <div id="section3-inner-banner-img1" class="section3-js-scroll"></div>
+                    <div id="section3-inner-banner-img2" class="section3-js-scroll"></div>
+                </div>
+                <div id="section3-trait">___________</div>
+                <h5 id="section3-titre">Nos Boissons</h5>
+                <div id="section3-inner-block">
+                    <nav>
+                        <ul id="section3-inner-block-nav-ul">
+                            <li class="navB cursor" onclick="currentBoissons(1)">Nos Pressions</li>
+                            <li class="navB cursor" onclick="currentBoissons(2)">Nos Digestifs</li>
+                            <li class="navB cursor" onclick="currentBoissons(3)">Nos Bières</li>
+                        </ul>
+                    </nav>
+                    
+                    <div id="section3-inner-block-carte">
+                        <div class="cache-carte" id="section3-cache">
+
+                        </div>
+                        <div class="carteB" >
+                            <div><strong>La Blonde tradition</strong> <strong>3.70 / 5.50</strong></div>
+                            <p>33cl / 50cl</p>
+                            <div><strong>La blonde spéciale</strong> <strong>4.90 / 7.20</strong></div>
+                            <p>33cl / 50cl</p>
+                            <div><strong>L'ambrée</strong> <strong>4.90 / 7.20</strong></div>
+                            <p>33cl / 50cl</p>
+                            <div><strong>La sélection</strong> <strong>4.90 / 7.20</strong></div>
+                            <p>33cl / 50cl</p>
+                            <div><strong>La découverte</strong> <strong>4.90 / 7.20</strong></div>
+                            <p>33cl / 50cl</p>
+                            <div><strong>L'IPA</strong> <strong>4.90 / 7.20</strong></div>
+                            <p>33cl / 50cl</p>
+                            <div><strong>Panaché</strong> <strong>3.70 / 5.50</strong></div>
+                            <p>33cl / 50cl</p>
+                            <!-- <div><strong>Monaco</strong> <strong>3.90 / 5.70</strong></div>
+                            <p>33cl / 50cl</p>
+                            <div><strong>Demi Sirot</strong> <strong>3.90 / 5.70</strong></div>
+                            <p>33cl / 50cl</p>
+                            <div><strong>Picon Biére</strong> <strong>4.90 / 6.90</strong></div>
+                            <p>33cl / 50cl</p> -->
+
+                        </div>
+                        <div class="carteB" >
+                            <div><strong>Coupe de champagne</strong> <strong>9.20</strong></div>
+
+                            <div><strong>Kir tranquille</strong> <strong>4.50</strong></div>
+                            <p>pêche - cassis - violet</p>
+                            <div><strong>Kir pétillant</strong> <strong>5.50</strong></div>
+                            <p>pêche - cassis - violet</p>
+                            <div><strong>Kir Royal</strong> <strong>4.50</strong></div>
+                            <p>pêche - cassis - violet</p>
+                            <div><strong>AOC Vouvray BRUT</strong> <strong>5.20</strong></div>
+                            <p></p>
+                            <div><strong>Lillet</strong> <strong>5.50</strong></div>
+                            <p>rouge - rosé - blanc</p>
+                            <div><strong>Pineau des charentes rouge et blanc</strong> <strong>5.50</strong></div>
+                            <p></p>
+                            <div><strong>Ricard</strong> <strong>3.60</strong></div>
+                            <div><strong>Suze</strong> <strong>5.50</strong></div>
+                            
+                        </div>
+                        <div class="carteB" >
+
+                        </div>
+                    </div>
+                    
+
+                    
+                    
+
+
+                </div>
+
+            </div>
+        </section>
+        <section id="section4">
+            <div id="section4-inner">
+
+
+                <div id="section4-inner-block">
+                    <nav>
+                        <ul id="section4-inner-block-nav-ul">
+                            <li class="navM cursor" onclick="currentMenues(1)">Nos Pressions</li>
+                            <li class="navM cursor" onclick="currentMenues(2)">Nos Digestifs</li>
+                            <li class="navM cursor" onclick="currentMenues(3)">Nos Bières</li>
+                        </ul>
+                    </nav>
+                    
+                    <div id="section4-inner-block-carte">
+                        <div class="cache-carte" id="section4-cache"></div>
+                        <div class="carteM" id="CB1">
+                            <div><strong>Classique</strong> <strong>9.90</strong></div>
+                            <p>lardons, oignons, crême fraîche, fromage blanc.</p>
+
+                            <div><strong>Tradition Gratinée</strong> <strong>10.90</strong></div>
+                            <p>lardons, oignons, crême fraîche, fromage blanc, emmental.</p>
+
+                            <div><strong>Gratinée de Touraine</strong> <strong>11.90</strong></div>
+                            <p>lardons, oignons, crême fraîche, fromage blanc, emmental, Sainte-Mauni de Touraine.</p>
+
+                            <div><strong>Végétarienne</strong> <strong>11.90</strong></div>
+                            <p>légumes de saison grillée, oignons, tomates, mozzarella, herbes fraiches, crème fraiche et fromage blanc.</p>
+
+                            <div><strong>Forestière</strong> <strong>12.90</strong></div>
+                            <p>oignons, lardons, crème fraiche, fromage blanc, champignons, emmmental.</p>
+
+                            <div><strong>Les Brasseurs Français</strong> <strong>14.50</strong></div>
+                            <p>boeuf, oeufs, crème fraiche et fromage blanc, sauce meurette, lardons, oignons rouges, herbes fraiches. </p>
+
+                            <div><strong>Strasbourgeoise</strong> <strong>14.50</strong></div>
+                            <p>lardons, oignons, crème fraiche, fromage blanc, choucroute, saucisse de montbillard et pomme de terre.</p>
+ 
+
+                        </div>
+                        <div class="carteM" id="CB2">
+                            <div><strong>Coupe de champagne</strong> <strong>9.20</strong></div>
+
+                            <div><strong>Kir tranquille</strong> <strong>4.50</strong></div>
+                            <p>pêche - cassis - violet</p>
+                            <div><strong>Kir pétillant</strong> <strong>5.50</strong></div>
+                            <p>pêche - cassis - violet</p>
+                            <div><strong>Kir Royal</strong> <strong>4.50</strong></div>
+                            <p>pêche - cassis - violet</p>
+                            <div><strong>AOC Vouvray BRUT</strong> <strong>5.20</strong></div>
+                            <p></p>
+                            <div><strong>Lillet</strong> <strong>5.50</strong></div>
+                            <p>rouge - rosé - blanc</p>
+                            <div><strong>Pineau des charentes rouge et blanc</strong> <strong>5.50</strong></div>
+                            <p></p>
+                            <div><strong>Ricard</strong> <strong>3.60</strong></div>
+                            <div><strong>Suze</strong> <strong>5.50</strong></div>
+                            
+                        </div>
+                        <div class="carteM" id="CB3">
+
+                        </div>
+                    </div>
+
+
+
+                </div>
+
+                <div id="section4-trait">_______________________</div>
+                <h5 id="section4-titre">Nos Menues</h5>
+
+                <div id="section4-inner-banner">
+                    <div id="section4-inner-banner-cercle" ></div>
+                    <div id="section4-inner-banner-carre"></div>
+                    <div id="section4-inner-banner-img1" class="section4-js-scroll"></div>
+                    <div id="section4-inner-banner-img2" class="section4-js-scroll"></div>
+                </div>
+
+            </div>
+            
+        </section>
+        <section id="section5">
+            <div id="section5-inner">
+                <div id="slider">
+                    <div>
+                        <figure>
+                            <figcaption class="mLBF"></figcaption>
+                        </figure>
+                        <figure>
+                            <figcaption class="mLeffe"></figcaption>
+                        </figure>
+                        <figure>
+                            <figcaption class="mLeffe"></figcaption>
+                        </figure>
+                    </div>
+
+                    <div>
+                        <figure>
+                            <figcaption class="mGarden"></figcaption>
+                        </figure>
+                        <figure>
+                            <figcaption class="mLeffe"></figcaption>
+                        </figure>
+                        <figure>
+                            <figcaption class="mGrim"></figcaption>
+                        </figure>
+                    </div>
+                    
+                    <div>
+                        <figure>
+                            <figcaption class="mGuinness"></figcaption>
+                        </figure>
+                        <figure>
+                            <figcaption class="mGrim"></figcaption>
+                        </figure>
+                        <figure>
+                            <figcaption class="mLBF"></figcaption>
+                        </figure>
+                    </div>
+
+
+                    
+                </div>
+
+
+
+            </div>
+        </section>
+
+        <section id="section6">
+
+            <div id="section6-inner">
+
+                <div id="section6-inner-control">
+                    <div id="section6-inner-control-head"><div id="section6-trait">_______________</div><h4 id="section6-titre">Nos Evenements</h5></div>
+                    <ul>
+                        <li class="cursor nav-events" id="section6-li1" onclick="currentEvents(1)"></li>
+                        <li class="cursor nav-events" id="section6-li2" onclick="currentEvents(2)"></li>
+                        <li class="cursor nav-events" id="section6-li3" onclick="currentEvents(3)"></li>
+                        <li class="cursor nav-events" id="section6-li4" onclick="currentEvents(4)"></li>
+                        
+                    </ul>
+                </div>
+
+
+                <div id="section6-inner-contenue" class="section6-js-scroll">
+                    <div class="events">
+                        <h5>Antoine Garrel</h5>
+                        <img class="sticker1" alt="">
+                        <img class="sticker2" alt="">
+                        <blockquote class="instagram-media sticker3"
+                            data-instgrm-permalink="https://www.instagram.com/p/CjyDTsXMFvF/?utm_source=ig_embed&amp;utm_campaign=loading"
+                            data-instgrm-version="0"
+                            style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; min-width: 30%;  padding:0; display: none;">
+                            <div style="padding:16px;">
+                                <!--<a
+                                    href="https://www.instagram.com/p/CjyDTsXMFvF/?utm_source=ig_embed&amp;utm_campaign=loading"
+                                    style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;"
+                                    target="_blank">
+                                    <div style=" display: flex; flex-direction: row; align-items: center;">
+                                        <div
+                                            style="background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;">
+                                        </div>
+                                        <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;">
+                                            <div
+                                                style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;">
+                                            </div>
+                                            <div
+                                                style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div style="padding: 19% 0;"></div>
+                                    <div style="display:block; height:50px; margin:0 auto 12px; width:50px;"><svg width="50px" height="50px"
+                                            viewBox="0 0 60 60" version="1.1" xmlns="https://www.w3.org/2000/svg"
+                                            xmlns:xlink="https://www.w3.org/1999/xlink">
+                                            <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                                <g transform="translate(-511.000000, -20.000000)" fill="#000000">
+                                                    <g>
+                                                        <path
+                                                            d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631">
+                                                        </path>
+                                                    </g>
+                                                </g>
+                                            </g>
+                                        </svg></div>
+                                    <div style="padding-top: 8px;">
+                                        <div
+                                            style=" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;">
+                                            Voir cette publication sur Instagram</div>
+                                    </div>
+                                    <div style="padding: 12.5% 0;"></div>
+                                    <div style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;">
+                                        <div>
+                                            <div
+                                                style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);">
+                                            </div>
+                                            <div
+                                                style="background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;">
+                                            </div>
+                                            <div
+                                                style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);">
+                                            </div>
+                                        </div>
+                                        <div style="margin-left: 8px;">
+                                            <div
+                                                style=" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;">
+                                            </div>
+                                            <div
+                                                style=" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)">
+                                            </div>
+                                        </div>
+                                        <div style="margin-left: auto;">
+                                            <div
+                                                style=" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);">
+                                            </div>
+                                            <div
+                                                style=" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);">
+                                            </div>
+                                            <div
+                                                style=" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div
+                                        style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;">
+                                        <div
+                                            style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;">
+                                        </div>
+                                        <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;">
+                                        </div>
+                                    </div>
+                                </a> -->
+                                <p
+                                    style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;">
+                                    <a href="https://www.instagram.com/p/CjyDTsXMFvF/?utm_source=ig_embed&amp;utm_campaign=loading"
+                                        style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;"
+                                        target="_blank">Une publication partagée par Antoine Garrel (@antoinegarrel)
+                                    </a>
+                                </p>
+                            </div>
+                        </blockquote>
+                        <script async src="//www.instagram.com/embed.js"></script>
+                        <p class="sticker4">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem et modi aliquam natus ea nostrum
+                            saepe iusto quo sed, eveniet tenetur aspernatur cum
+                        </p>
+
+                    </div>
+                    
+                    <div class="events">
+                    
+                    </div>
+
+                    <div class="events">
+                    
+                    </div>
+
+                    <div class="events">
+                    
+                    </div>
+
+                </div>
+            </div>
+
+            
+            
+
+
+
+
+        </section>
+
+
+        <section id="section7">
+            <div id="section7-inner" class="section7-js-scroll">
+                <div id="map">
+
+                </div>
+                <script
+                    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDluCqBb7rTIQ3KjWgveVcQ1_YGO0EvfaQ&callback=initMap&v=weekly"
+                    defer>
+                </script>
+
+            </div>  
+        </section>
+
+
+
+
+
+        <footer>
+            <div id="back-footer">
+
+            </div>
+            <div id="inner-footer">
+                <ul>
+                    <li>lbfamboise@gmail.com</li>
+                    <li>02 47 57 47 08</li>
+                    <li></li>
+                </ul>
+                
+                <ul>
+                    <li>Crédit</li>
+                    <li>Mentions Légales</li>
+                    <li></li>
+                
+                </ul>
+
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+
+
+            </div>
+            <p id="p-footer">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae illo facere maiores voluptatibus consequuntur omnis temporib</p>
+        </footer>
+
+
+
+    </section>
+    <script>
+        // variable
+
+
+        // function
+        
+
+        var carteBIndex = 1;
+        var carteMIndex = 1;
+        var eventsIndex = 1;
+        var precedentYoffset;
+        var tabClassScroll = ["section1-js-scroll", "section2-js-scroll", "section3-js-scroll", "section4-js-scroll", "section5-js-scroll","section6-js-scroll", "section7-js-scroll"];
+        var tabTop = [];
+        var e = document.getElementsByClassName("events");
+        var n = document.getElementsByClassName("nav-events");
+        
+
+        
+
+		
+        showBoissons(carteBIndex);
+        showMenues(carteMIndex);
+        currentEvents(1);
+        // e[0].style.backgroundColor = "blue";
+        // n[0].style.backgroundColor = "blue";
+        startScroll();
+        scroll("section1-js-scroll");
+        
+
+		
+		function currentBoissons(n) {
+		  showBoissons(carteBIndex = n);
+		}
+        function currentMenues(n) {
+		  showMenues(carteMIndex = n);
+		}
+
+        function currentEvents(n) {
+            eventsIndex = n;
+            showEvents();
+        }
+		
+		function showBoissons(n)
+        {
+		  let i;
+		  let carte = document.getElementsByClassName("carteB");
+		  let nav = document.getElementsByClassName("navB");
+
+		  if (n > carte.length) {carteBIndex = 1}
+		  if (n < 1) {carteBIndex = carte.length}
+		  for (i = 0; i < carte.length; i++) {
+			  carte[i].style.display = "none";
+		  }
+		  for (i = 0; i < nav.length; i++) {
+			  nav[i].className = nav[i].className.replace(" activeBoissons", "");
+		  }
+		  carte[carteBIndex-1].style.display = "block";
+		  nav[carteBIndex-1].className += " activeBoissons";
+
+          
+		}
+
+
+        function showMenues(n)
+        {
+		  let i;
+		  let carte = document.getElementsByClassName("carteM");
+		  let nav = document.getElementsByClassName("navM");
+
+		  if (n > carte.length) {carteMIndex = 1}
+		  if (n < 1) {carteMIndex = carte.length}
+		  for (i = 0; i < carte.length; i++) {
+			  carte[i].style.display = "none";
+		  }
+		  for (i = 0; i < nav.length; i++) {
+			  nav[i].className = nav[i].className.replace(" activeMenues", "");
+		  }
+		  carte[carteMIndex-1].style.display = "block";
+		  nav[carteMIndex-1].className += "  activeMenues";
+
+          
+		}
+
+        function showEvents() {
+            let i;
+            let events = document.getElementsByClassName("events");
+            let nav = document.getElementsByClassName("nav-events");
+
+            for (i = 0; i < events.length; i++) {
+                events[i].style.display = "none";
+            }
+
+            nav[0].style.backgroundColor = "#433c2b";
+            nav[0].style.backgroundImage = "url('Ressources/Images/baguettes.png')";
+
+            nav[1].style.backgroundColor = "#433c2b";
+            nav[1].style.backgroundImage = "url('Ressources/Images/cartes.png')";
+
+            nav[2].style.backgroundColor = "#433c2b";
+            nav[2].style.backgroundImage = "url('Ressources/Images/dance.png')";
+
+            nav[3].style.backgroundColor = "#433c2b";
+            nav[3].style.backgroundImage = "url('Ressources/Images/music.png')";
+                
+            
+
+            events[eventsIndex - 1].style.display = "block";
+            nav[eventsIndex - 1].style.backgroundColor = "#12132b";
+            if(eventsIndex == 1){
+                console.log("oui");
+                nav[eventsIndex - 1].style.backgroundImage = "url('Ressources/Images/baguettesB.png')";
+            }
+            if (eventsIndex == 2) {
+                nav[eventsIndex - 1].style.backgroundImage = "url('Ressources/Images/cartesB.png')";
+            }
+            if (eventsIndex == 3) {
+                nav[eventsIndex - 1].style.backgroundImage = "url('Ressources/Images/danceB.png')";
+            }
+            if (eventsIndex == 4) {
+                nav[eventsIndex - 1].style.backgroundImage = "url('Ressources/Images/musicB.png')";
+            }
+            
+            
+            
+
+
+        }
+
+        
+
+
+        
+
+        function grande(event){
+                    
+            if(event == 1){
+                document.getElementById("section2-h4-P").style.opacity = "0";
+                document.getElementById("section2-h4-G").style.fontSize = "1.5em";
+                document.getElementById("section2-inner-petite").style.width = "70%";
+                document.getElementById("section2-inner-grande").style.width = "30%";
+                document.getElementById("section2-inner-iconesP").style.opacity = "0";
+                document.getElementById("section2-inner-iconesP").style.display = "none";
+                document.getElementById("section2-inner-iconesG").style.opacity = "0";
+                document.getElementById("section2-inner-iconesG").style.display = "none";
+                document.getElementById("section2-inner-retourG").style.display = "block";
+                document.getElementById("section2-inner-retourG").style.opacity = "1";
+                document.getElementById("section2-inner-retourG").style.cursor = "pointer";
+                document.getElementById("section2-inner-grande").style.cursor = "default";
+                document.getElementById("section2-inner-iconesP").style.cursor = "default";
+                document.getElementById("section2-inner-petite").style.backgroundImage = "url('Ressources/Images/SalleG.jpg')";
+
+            }
+
+            if(event ==0){
+                document.getElementById("section2-h4-P").style.opacity = "1";
+                document.getElementById("section2-h4-G").style.fontSize = "2.7em";
+                document.getElementById("section2-inner-petite").style.width = "50%";
+                document.getElementById("section2-inner-grande").style.width = "50%";
+                document.getElementById("section2-inner-iconesP").style.display = "block";
+                document.getElementById("section2-inner-iconesP").style.opacity = "1";
+                document.getElementById("section2-inner-iconesG").style.display = "block";
+                document.getElementById("section2-inner-iconesG").style.opacity = "1";
+                document.getElementById("section2-inner-retourG").style.opacity = "0";
+                document.getElementById("section2-inner-retourG").style.display = "none";
+                document.getElementById("section2-inner-retourG").style.cursor = "default";
+                document.getElementById("section2-inner-iconesG").style.cursor = "pointer";
+                document.getElementById("section2-inner-iconesP").style.cursor = "pointer";
+                document.getElementById("section2-inner-petite").style.backgroundImage = "";
+            }
+
+        }
+
+
+        function petite(event){
+            
+            if(event == 1){
+                document.getElementById("section2-h4-G").style.opacity = "0";
+                document.getElementById("section2-h4-P").style.fontSize = "1.5em";
+                document.getElementById("section2-inner-grande").style.width = "70%";
+                document.getElementById("section2-inner-petite").style.width = "30%";
+                document.getElementById("section2-inner-iconesP").style.opacity = "0";
+                document.getElementById("section2-inner-iconesP").style.display = "none";
+                document.getElementById("section2-inner-iconesG").style.opacity = "0";
+                document.getElementById("section2-inner-iconesG").style.display = "none";
+                document.getElementById("section2-inner-retourP").style.display = "block";
+                document.getElementById("section2-inner-retourP").style.opacity = "1";
+                document.getElementById("section2-inner-retourP").style.cursor = "pointer";
+                console.log("je suis la ");
+                document.getElementById("section2-inner-grande").style.cursor = "default";
+                document.getElementById("section2-inner-iconesP").style.cursor = "default";
+                document.getElementById("section2-inner-grande").style.backgroundImage = "url('Ressources/Images/SalleP.jpg')";
+
+            }
+
+            if(event ==0){
+                document.getElementById("section2-h4-G").style.opacity = "1";
+                document.getElementById("section2-h4-P").style.fontSize = "2.7em";
+                document.getElementById("section2-inner-petite").style.width = "50%";
+                document.getElementById("section2-inner-grande").style.width = "50%";
+                document.getElementById("section2-inner-iconesP").style.display = "block";
+                document.getElementById("section2-inner-iconesP").style.opacity = "1";
+                document.getElementById("section2-inner-iconesG").style.display = "block";
+                document.getElementById("section2-inner-iconesG").style.opacity = "1";
+                document.getElementById("section2-inner-retourP").style.opacity = "0";
+                document.getElementById("section2-inner-retourP").style.display = "none";
+                document.getElementById("section2-inner-retourP").style.cursor = "default";
+                document.getElementById("section2-inner-iconesG").style.cursor = "pointer";
+                document.getElementById("section2-inner-iconesP").style.cursor = "pointer";
+                document.getElementById("section2-inner-grande").style.backgroundImage = "";
+            }
+
+        }
+
+        function startScroll(){
+            for ( let nameClass of tabClassScroll) {
+                let elements = document.getElementsByClassName(nameClass);
+                let tab = [];
+                for (i = 0; i < elements.length; i++) {
+                    tab[i] = 0;
+                }
+                tabTop[nameClass] = tab;
+            }
+        }
+
+        
+        function scroll(nameClass){
+            let i;
+            let element = document.getElementsByClassName(nameClass);
+            let dist;
+            
+            if((precedentYoffset- window.pageYOffset)<0){
+                dist = -0.05;
+            }
+            else{
+                dist = 0.05;
+            }
+            precedentYoffset = window.pageYOffset;
+            for (i = 0; i < element.length; i++) {
+                
+                if((tabTop[nameClass][i] + dist)<7 && (tabTop[nameClass][i] + dist) > (-7)){
+                    tabTop[nameClass][i] = tabTop[nameClass][i] + dist;
+                }
+                
+
+                element[i].style.marginTop = ""+tabTop[nameClass][i]+"%";
+                
+                
+                
+                
+                
+                
+                
+            }
+
+        }
+       
+
+
+        window.addEventListener('scroll', function() {
+
+            console.log(window.pageYOffset);
+
+
+
+            if(window.pageYOffset<4){
+                document.getElementById('header').style.backgroundColor = "rgb(27, 14, 7,0)";
+                document.getElementById('header').style.height = "20vh";
+                document.getElementById('header').style.boxShadow ="none";
+                
+                document.getElementById('header-inner').style.marginTop = "8vh";
+
+                document.getElementById('header-logo-t0').style.opacity ="1";
+                document.getElementById('header-logo-tn').style.marginTop = "5vh";         
+
+                // document.getElementById('nav').style.marginTop = "40px";
+                // document.getElementById('reserve').style.marginTop = "40px";
+                // document.getElementById('header-ul-network').style.marginTop = "40px";
+                
+
+            }
+            else{
+                document.getElementById('header').style.backgroundColor = "rgb(27, 14, 7)";
+                document.getElementById('header').style.height = "15vh";
+                
+                document.getElementById('header').style.boxShadow ="0px 3px 6px black ";
+
+                document.getElementById('header-inner').style.marginTop = "4vh";
+
+                document.getElementById('header-logo-t0').style.opacity ="0";
+                document.getElementById('header-logo-tn').style.marginTop = "0vh"; 
+                document.getElementById('header-logo-tn').style.width = "80px";
+                document.getElementById('header-logo-tn').style.height = "80px";
+
+                // document.getElementById('nav').style.marginTop = "20px";
+                // document.getElementById('reserve').style.marginTop = "20px";
+                // document.getElementById('header-ul-network').style.marginTop = "20px";
+
+                
+                
+
+            }
+
+            
+
+
+            
+        });
+
+        window.addEventListener('scroll', function() {
+
+            if(window.pageYOffset<400){
+                document.getElementById('nav-home').style.color = "#78694a";
+                scroll("section1-js-scroll");
+
+                
+
+            }
+            else{
+                document.getElementById('nav-home').style.color = "#ffffff";
+
+
+                
+                
+
+            }
+
+
+            if(400<window.pageYOffset && window.pageYOffset<800){
+                document.getElementById('nav-espace').style.color = "#78694a";
+                scroll("section2-js-scroll");
+
+                
+
+            }
+            else{
+                document.getElementById('nav-espace').style.color = "#ffffff";
+
+
+                
+                
+
+            }
+
+            if(800<=window.pageYOffset && window.pageYOffset<1300){
+                document.getElementById('nav-boisson').style.color = "#78694a";
+                scroll("section3-js-scroll");
+                document.getElementById('section3-inner-banner-carre').style.animationPlayState = "running";
+                document.getElementById('section3-inner-banner-cercle').style.animationPlayState = "running";
+                document.getElementById('section3-inner-banner-img1').style.animationPlayState = "running";
+                document.getElementById('section3-inner-banner-img2').style.animationPlayState = "running";
+                document.getElementById('section3-trait').style.animationPlayState = "running";
+                document.getElementById('section3-titre').style.animationPlayState = "running";
+                document.getElementById('section3-cache').style.animationPlayState = "running";
+
+                
+
+            }
+            else{
+                document.getElementById('nav-boisson').style.color = "#ffffff";
+
+
+
+                
+                
+
+            }
+
+            if (1300 <= window.pageYOffset && window.pageYOffset < 1800) {
+                document.getElementById('nav-menus').style.color = "#78694a";
+                scroll("section4-js-scroll");
+                document.getElementById('section4-inner-banner-carre').style.animationPlayState = "running";
+                document.getElementById('section4-inner-banner-cercle').style.animationPlayState = "running";
+                document.getElementById('section4-inner-banner-img1').style.animationPlayState = "running";
+                document.getElementById('section4-inner-banner-img2').style.animationPlayState = "running";
+                document.getElementById('section4-trait').style.animationPlayState = "running";
+                document.getElementById('section4-titre').style.animationPlayState = "running";
+                document.getElementById('section4-cache').style.animationPlayState = "running";
+
+
+
+            }
+            else {
+                document.getElementById('nav-menus').style.color = "#ffffff";
+
+
+
+
+
+
+            }
+
+            if (2600 <= window.pageYOffset && window.pageYOffset < 3300) {
+                document.getElementById('nav-events').style.color = "#78694a";
+                scroll("section6-js-scroll");
+
+                document.getElementById('section6-trait').style.animationPlayState = "running";
+                document.getElementById('section6-titre').style.animationPlayState = "running"; 
+                document.getElementById('section6-inner-contenue').style.animationPlayState = "running";
+                document.getElementById('section6-li1').style.animationPlayState = "running";
+                document.getElementById('section6-li2').style.animationPlayState = "running";
+                document.getElementById('section6-li3').style.animationPlayState = "running";
+                document.getElementById('section6-li4').style.animationPlayState = "running";
+
+
+
+            }
+            else {
+                document.getElementById('nav-events').style.color = "#ffffff";
+
+
+
+
+
+
+            }
+
+            if (3450 <= window.pageYOffset && window.pageYOffset < 4000) {
+                document.getElementById('nav-contact').style.color = "#78694a";
+                // document.getElementById('section7-inner').style.animationPlayState = "running";
+                scroll("section7-js-scroll");
+
+
+
+
+
+            }
+            else {
+                document.getElementById('nav-contact').style.color = "#ffffff";
+
+
+
+
+
+
+            }
+
+            
+
+
+            // i(400<=window.pageYOffset<600){
+            //     document.getElementById("nav-home").style.color= "#ffffff";
+            //     document.getElementById("nav-espace").style.color= "#78694a";
+            //     document.getElementById("nav-boisson").style.color= "#ffffff";
+            //     document.getElementById("nav-menus").style.color= "#ffffff";
+            //     document.getElementById("nav-events").style.color= "#ffffff";
+            //     document.getElementById("nav-contact").style.color= "#ffffff";
+            //     console.log("que dla");
+            //     console.log(window.pageYOffset);
+
+
+
+            // }
+
+
+
+
+        });
+
+        // document.getElementById("section2-inner-grande").addEventListener("mouseenter", function( event ){
+        //     document.getElementById("section2-inner-grande").style.width = "70%";
+        //     document.getElementById("section2-inner-grande").style.backgroundImage = "url('Ressources/Images/SalleG.jpg')";
+        //     document.getElementById("section2-inner-iconesG").style.marginLeft = "40%";
+        //     document.getElementById("section2-inner-grande").style.fontSize = "1em";
+            
+        //     document.getElementById("section2-inner-petite").style.width = "30%";
+        //     document.getElementById("section2-inner-petite").style.fontSize = "5pt";
+
+        //     document.getElementById("section2-inner-iconesP").style.marginLeft = "25%";
+        //     document.getElementById("section2-inner-petite").style.backgroundImage = "none";
+
+
+        // });
+
+
+        // document.getElementById("section2-inner-petite").addEventListener("mouseenter", function( event ){
+        //     document.getElementById("section2-inner-petite").style.width = "70%";
+        //     document.getElementById("section2-inner-petite").style.backgroundImage = "url('Ressources/Images/SalleP.jpg')";
+        //     document.getElementById("section2-inner-iconesP").style.marginLeft = "40%";
+        //     document.getElementById("section2-inner-petite").style.fontSize = "0.9em";
+            
+        //     document.getElementById("section2-inner-grande").style.width = "30%";
+        //     document.getElementById("section2-inner-grande").style.fontSize = "5pt";
+
+        //     document.getElementById("section2-inner-iconesG").style.marginLeft = "25%";
+        //     document.getElementById("section2-inner-grande").style.backgroundImage = "none";
+
+
+        // });
+
+        // document.getElementById("section2-inner-petite").addEventListener("mouseout", function( event ){
+        //     document.getElementById("section2-inner-petite").style.width = "50%";
+        //     document.getElementById("section2-inner-petite").style.backgroundImage = "none";
+        //     document.getElementById("section2-inner-iconesP").style.marginLeft = "35%";
+            
+        //     document.getElementById("section2-inner-grande").style.width = "50%";
+        //     document.getElementById("section2-inner-grande").style.fontSize = "1em";
+
+        //     document.getElementById("section2-inner-iconesG").style.marginLeft = "35%";
+
+
+        // });
+
+        // document.getElementById("section2-inner-grande").addEventListener("mouseout", function( event ){
+        //     document.getElementById("section2-inner-grande").style.width = "50%";
+        //     document.getElementById("section2-inner-grande").style.backgroundImage = "none";
+        //     document.getElementById("section2-inner-iconesG").style.marginLeft = "35%";
+            
+        //     document.getElementById("section2-inner-petite").style.width = "50%";
+        //     document.getElementById("section2-inner-petite").style.fontSize = "1em";
+
+        //     document.getElementById("section2-inner-iconesP").style.marginLeft = "35%";
+
+
+        // });
+
+
+        // src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initMap&v=weekly"
+        // defer;
+
+
+        
+
+
+    </script>
+</body>
+</html>
