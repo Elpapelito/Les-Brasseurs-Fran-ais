@@ -77,13 +77,27 @@
 
             <div id="section2-inner">
                 <div id="section2-inner-grande" class="" >
-                    <div id="petite-contenue"></div>
+                    <div id="petite-contenue">
+                        <div id="petite-text">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur labore suscipit reiciendis dignissimos? Iure ab exercitationem quis. Eaque mollitia soluta cumque, architecto deserunt debitis. Voluptatem magni illo soluta fugiat quam?</p>
+                        </div>
+                    </div>
                     <h4 class="section2-h4" id="section2-h4-G">Pour de <br> <strong id="G">grandes <br> réunions </strong></h4>
                     <img class="section2-inner-icones cursor" id="section2-inner-iconesG" src="Ressources/Images/reunion.png" onclick="grande(1)">
                     <img class="section2-inner-F cursor" id="section2-inner-retourG" src="Ressources/Images/arrow2.png" onclick="grande(0)">
                 </div>
                 <div id="section2-inner-petite" class="">
-                    <div id="grande-contenue"></div>
+
+                    <div id="grande-text">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur labore suscipit reiciendis dignissimos?
+                            Iure ab
+                            exercitationem quis. Eaque mollitia soluta cumque, architecto deserunt debitis. Voluptatem magni illo soluta
+                            fugiat
+                            quam?
+                        </p>
+                    
+                    </div>
                     <h4 class="section2-h4" id="section2-h4-P">Pour de <br> <strong id="P"> petites <br>  retrouvailles</strong></h4>
                     <img class="section2-inner-icones cursor" id="section2-inner-iconesP" src="Ressources/Images/drinkOK.png" onclick="petite(1)">
                     <img class="section2-inner-F cursor" id="section2-inner-retourP" src="Ressources/Images/arrow1.png"  onclick="petite(0)">
@@ -643,6 +657,7 @@
                 document.getElementById("section2-inner-grande").style.cursor = "default";
                 document.getElementById("section2-inner-iconesP").style.cursor = "default";
                 document.getElementById("section2-inner-petite").style.backgroundImage = "url('Ressources/Images/SalleG.jpg')";
+                document.getElementById("grande-text").style.display = "block"; 
 
             }
 
@@ -661,6 +676,7 @@
                 document.getElementById("section2-inner-iconesG").style.cursor = "pointer";
                 document.getElementById("section2-inner-iconesP").style.cursor = "pointer";
                 document.getElementById("section2-inner-petite").style.backgroundImage = "";
+                document.getElementById("grande-text").style.display = "none"; 
             }
 
         }
@@ -684,6 +700,7 @@
                 document.getElementById("section2-inner-grande").style.cursor = "default";
                 document.getElementById("section2-inner-iconesP").style.cursor = "default";
                 document.getElementById("section2-inner-grande").style.backgroundImage = "url('Ressources/Images/SalleP.jpg')";
+                document.getElementById("petite-text").style.display = "block";
 
             }
 
@@ -702,6 +719,7 @@
                 document.getElementById("section2-inner-iconesG").style.cursor = "pointer";
                 document.getElementById("section2-inner-iconesP").style.cursor = "pointer";
                 document.getElementById("section2-inner-grande").style.backgroundImage = "";
+                document.getElementById("petite-text").style.display = "none";
             }
 
         }
