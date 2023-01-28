@@ -386,6 +386,11 @@ body{
     margin: 0;
 }
 
+a{
+    text-decoration: none;
+    color:unset ;
+}
+
 #global{
     width: 100%;
 }
@@ -406,7 +411,7 @@ header{
     position: fixed;
     display: flex;
     transition: all 0.5s;
-    z-index: 3;
+    z-index: 5;
     
     
 
@@ -1337,36 +1342,53 @@ nav{
     width: 100%;
     height: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
   
 }
 
 
 
 
-#slider figure{
+#slider .drink{
     /* background-color: aqua; */
-    background-image: url("Ressources/Images/Beer.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
+    position: relative;
+    
+
+
     height: 100%;
-    width: 20%;
+    
     margin-top: 0%;
     margin-bottom: 0%;
     transition: all 1s; 
+    
+
+}
+
+#slider figure {
+    background-image: url("Ressources/Images/Beer.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left;
+    height: 100%;
+    width: 100%;
+    transition: all 1s;
+    z-index: 3;
+
 }
 
 #slider figure:hover {
     transform: translateY(-40px);
 }
 
-#slider figure figcaption{
-    height: 40%;
-    width: 60%;
-    position: relative;
-    top: 50%;
-    left: 50%;
+#slider figcaption{
+    height: 55%;
+    width: 50%;
+    position: absolute;
+    top: 25%;
+    left: 40%;
+    z-index: 0;
+    background-color: #4c3d275e;
+
     
     
     background-repeat: no-repeat;
@@ -1374,24 +1396,62 @@ nav{
     background-position: center;
 }
 
-.mLBF{
+
+#slider figcaption strong {
+    /* background-color: rgb(71, 37, 5); */
+
+    color: #5b4b2d;
+    font-family: Univ , Arial, Helvetica, sans-serif;
+}
+
+
+#slider figcaption p {
+    /* background-color: rgb(71, 37, 5); */
+    height: 90%;
+    width: 60%;
+    margin-left: 35%;
+    color: rgb(236, 229, 193);
+    font-family: beba, Arial, Helvetica, sans-serif;
+    text-shadow: 0 0 2vh #5b4b2d;
+}
+
+
+#slider figcaption::after {
+    content: "";
+    display: block;
+
+    width: 60%;
+    height: 50%;
+    position: absolute;
+    top: 85%;
+    right: 10%;
+    background-repeat: no-repeat;
+    background-size: 90%;
+
+
+
+}
+
+#slider .mLBF::after {
     background-image: url("Ressources/Images/Logo.png");
 }
 
-.mGarden{
+
+
+#slider .mGarden::after{
     background-image: url("Ressources/Images/garden.png");
 
 }
 
-.mGrim {
+#slider .mGrim::after {
     background-image: url("Ressources/Images/grim.png");
 
 }
-.mGuinness {
+#slider .mGuinness::after {
     background-image: url("Ressources/Images/guinness.png");
 
 }
-.mLeffe {
+#slider .mLeffe::after {
     background-image: url("Ressources/Images/leffe.png");
 
 }
@@ -1493,7 +1553,7 @@ nav{
     left: 25%;
     top: 25% ;
     float: left;
-    box-shadow: #302920 -4vw -4vw 1vw;
+    box-shadow: #30292049 -4vw -4vw 1vw;
     animation: comeOpacity 1s 1.5s forwards;
     animation-play-state: paused;
     opacity: 0;
