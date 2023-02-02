@@ -58,6 +58,63 @@
 
 }
 
+@media only screen and (min-width: 1301px) {
+
+    #section1 {
+        height: 100vh;
+
+    }
+
+    #section2 {
+        height: 100vh;
+        background-color: rgb(5, 5, 17);
+
+    }
+
+    #section3 {
+        height: 100vh;
+
+    }
+
+    #section4 {
+        height: 100vh;
+        /* background-color: aqua; */
+
+    }
+
+
+    #section5 {
+        height: 80vh;
+    }
+
+    #section6 {
+        height: 120vh;
+        /* background-color: aqua; */
+
+    }
+
+    #section6-inner-control ul {
+        height: 100%;
+    }
+
+    #section7 {
+        height: 100vh;
+
+
+    }
+
+
+    footer {
+        height: 30vh;
+        background-color: rgb(27, 14, 7);
+    }
+
+
+
+
+
+}
+
 
 
 @media only screen and (min-width: 1900px) {
@@ -723,7 +780,7 @@ nav{
 #section2-inner{
     width: 80%;
     height: 80%;
-    background-color: aqua;
+    
     margin: auto;
     display: flex;
 
